@@ -1,0 +1,425 @@
+s        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat';
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #incio {
+            background-size: cover;
+            background-position: center center;
+        }   
+
+
+        .container-fluid .contenido .navbar-nav a{
+            color: aliceblue;
+            text-align: center;
+        }
+
+        .container-fluid .contenido .navbar-nav a:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+            background-color: #563cbf;
+            border: 1px solid;
+            border-radius: 5px;
+
+        }
+
+        .fondo{
+            display: flex;
+            justify-content:center;
+            text-align: center;
+            align-items: center;
+            background: linear-gradient( rgba(29, 24, 24, 0.7), rgba(0, 0, 0, 0.7)), url("Img/angulo-vista-rascacielos.jpg");
+            height: 700px;
+            width: auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .fondo .title, h2, p {
+            color: #ffffff;
+        }
+
+        .fondo span{
+            color: #83b8ed;
+        }
+
+
+        .presentacion .btn{
+            background-color: transparent;
+            border-color: #ccc;
+        }
+
+        .fondo .presentacion #boton a{
+            border-radius: 30px;
+            color: #ffffff;
+        }
+        
+        .card-body{
+            margin-top: 30px;
+        }
+
+        /* SOBRE NOSOTROS*/
+
+        
+        #nosotros {
+            max-width: 1100px;
+            margin: auto;
+            padding: 100px 15px;
+            color: #111135;
+            display: flex;
+        }
+        
+        #nosotros .contenedor-foto {
+            max-width: 600px;
+            margin-right: 80px;
+
+        }
+        
+        #nosotros .contenedor-foto img {
+            padding: 1px;
+            width: 120%;
+        }
+        
+        #nosotros .nosotros {
+            margin: 0 40px;
+        }
+        
+        #nosotros .nosotros .titulo {
+            font-size: 22px;
+            text-transform: uppercase;
+            color: #111135;
+            text-decoration: underline;
+            text-decoration-color: #d3d3d3;
+            text-decoration-thickness: 5px;
+        }
+        
+        #nosotros .nosotros h2 {
+            font-size: 34px;
+            font-weight: bold;
+            margin: 20px 0;
+            letter-spacing: 2px;
+        }
+        
+        #nosotros .nosotros h2 span {
+            color: #111135;
+        }
+        
+        #nosotros .nosotros p {
+            font-size: 14px;
+            line-height: 25px;
+            color: #565656;
+            margin-bottom: 12px;
+        }
+        
+        #nosotros .nosotros a {
+            display: inline-block;
+            text-decoration: none;
+            color: #000;
+            border-radius: 30px;
+            border: 1px solid #000;
+            padding: 10px 20px;
+            margin-top: 30px;
+            transition: .5s;
+        }
+        
+        #nosotros .nosotros a:hover {
+            background-color: #111135;
+            color: #fff;
+        }
+        
+
+
+        /* MISION, VISIÓN, VALORES*/
+        #organización {
+            padding: 100px 15px;
+            text-align: center;
+            background-color: #f3f3f3;
+        }
+        
+        #organización .titulo {
+            text-align: center;
+            font-size: 22px;
+            text-transform:uppercase;
+            color: #111135;
+            text-decoration: underline;
+            text-decoration-color: #d3d3d3;
+            text-decoration-thickness: 6px;
+        }
+        
+        #organización .fila {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1150px;
+            margin: 30px auto;
+        }
+        
+        #organización .fila .org {
+            max-width: 350px;
+            background-color: #fff;
+            padding: 30px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: .5s;
+        }
+        
+        #organización .fila .org:hover {
+            box-shadow: 8px 8px 12px #d3d3d3, -5px -5px 10px #d3d3d3;
+        }
+        
+        #organización .fila .org .icono {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #d3d3d3;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        
+        #organización .fila .org h4 {
+            font-size: 22px;
+            margin-bottom: 25px;
+        }
+        
+        #organización .fila .org hr {
+            width: 30%;
+            margin: auto;
+            color: #000;
+            margin-bottom: 25px;
+        }
+        
+        #organización .fila .org ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 10px;
+        }
+        
+        #organización .fila .org p {
+            font-size: 14px;
+            line-height: 22px;
+            color: #000;
+        }
+        
+
+        /* SERVICIOS*/
+        
+        #servicios {
+            max-width: 1100px;
+            padding: 100px 0;
+            margin: auto;
+        }
+        
+        #servicios .titulo-seccion {
+            text-align: center;
+            font-size: 22px;
+            text-transform: uppercase;
+            color: #111135;
+            text-decoration: underline;
+            text-decoration-color: #d3d3d3;
+            text-decoration-thickness: 5px;
+        }
+        
+        #servicios .fila {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+        }
+        
+        #servicios .fila .servicio {
+            max-width: 450px;
+            border: 1px solid #000;
+            margin: 0 10px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        #servicios .fila .servicio img {
+            width: 100%;
+            height: 100%;
+            ;
+        /* filter: grayscale(1);
+            object-fit: cover;
+            transition: .5s;*/
+        }
+        
+        #servicios .fila .servicio:hover img {
+            filter: grayscale(0);
+        }
+        
+        #servicios .fila .servicio .info {
+            position: absolute;
+            left: 0px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #FFF;
+            width: 100%;
+            padding: 10px;
+            opacity: 0;
+            bottom: -40px;
+            transition: .5s;
+        }
+        
+        #servicios .fila .servicio:hover .info {
+            opacity: 1;
+            bottom: 0;
+        }
+
+
+        /*convenio*/
+
+        .contenedor-skills {
+            background: linear-gradient( #000000, rgba(1, 1, 132, 0.2)), url("img/convenio.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size:cover;
+            color: #fff;
+            background-position: center center;
+            padding: 150px;
+            text-align: center;
+        }
+        
+        /*CONVENIOS*/
+        .testimony_grid{
+            width: 70%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+        }
+        .testimony_item{
+            width: 95%;
+            margin: 0 auto;
+            background: var(--color-secondary);
+            box-shadow: 0 8px 10px rgba(66,66,66, .5);
+            border-radius: 7px;
+            padding: 30px 25px;
+            color: #FFF;
+            margin-bottom: 100px;
+        }
+        .testimony_person{
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .testimony_img{
+            width: 352px;
+            min-width: 134px;
+            height: 135px;
+            object-fit: cover;
+            object-position: top;
+            margin-right: 30px;
+            position: center;
+        }
+        .testimony_review{
+            font-weight: 300;
+            color:#111135
+        }
+        .subtitle{
+            color:#111135;  font-size: 22px;
+            text-transform: uppercase;
+            color: #111135;
+            text-decoration: underline;
+            text-decoration-color: #d3d3d3;
+            text-decoration-thickness: 5px;
+            text-align: center;
+
+        }
+        /*CONTACTOS*/
+        #contacto {
+            padding: 100px 15px;
+            background-color: #f3f3f3;
+        }
+
+        
+        #contacto .titulo-seccion {
+            margin-bottom: 20px;
+        }
+        
+
+        #contacto .contenedor-form {
+            max-width: 800px;
+            margin: auto;
+        }
+        
+
+        #contacto .contenedor-form .fila {
+            margin-bottom: 5px;
+        }
+
+        
+        #contacto .contenedor-form .mitad {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+
+        #contacto .contenedor-form input,
+        #contacto .contenedor-form textarea {
+            padding: 20px;
+            border-radius: 20px;
+            border: none;
+            border: 1px solid #919191;
+        }
+        
+
+        #contacto .contenedor-form .mitad input {
+            width: 40%;
+        }
+
+        #contacto .contenedor-form .input-full {
+            width: 100%;
+        }
+
+        #contacto .titulo-seccion {
+            text-align: center;
+            font-size: 22px;
+            text-transform: uppercase;
+            color: #111135;
+            text-decoration: underline;
+            text-decoration-color: #d3d3d3;
+            text-decoration-thickness: 10px;
+        }
+        
+        #contacto .btn-enviar {
+            display: block;
+            margin: auto;
+            cursor: pointer;
+            transition: .5s;
+            padding: 10px 15px !important;
+        }
+
+        #contacto .btn-enviar:hover {
+            background-color: #111135;
+            color: #fff;
+        }
+        .titulo-php{
+            text-align: center;
+            color:#fff;
+            font-size: 40px;
+            background: rgba(0, 0, 0, 0.4);
+            margin-top: 20px;
+        }
+         /* seccion F O O T E R */
+        
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        footer a {
+            text-decoration: none;
+            color: #000;
+            display: inline-block;
+            margin: 5px;
+            font-size: 26px;
+        }
